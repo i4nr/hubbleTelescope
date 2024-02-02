@@ -1,0 +1,110 @@
+/* CSS Document */
+
+/* CSS RESET*/
+body, nav, header, main, footer, h1, div, img, ul, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*BODY*/
+
+main p {
+	font-size: 1em;
+	color:#000;
+}
+
+body {
+	font-family: 'Kosugi', sans-serif;
+	background-color: #fff;
+}
+
+main h2 {
+	color: #000;
+}
+
+.container {
+	padding: 2em;
+	color: #fff;
+}
+
+/*NAV*/
+
+nav {
+	background-color: #000;
+}
+
+nav a {
+	display: block;
+	color: #4F535E;
+	text-decoration: none;
+	padding: 0 2em;
+}
+
+a:hover {
+	color: #fff;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 2em 1em 0 0;
+	padding: 0 0 2em;
+}
+
+/*HEADER*/
+
+h1 {
+	text-align: center;
+	padding: .2em;
+	font-size: 5em;
+}
+
+header{
+	background-color: #343434;
+	
+}
+
+.top {
+	text-align: center;
+}
+
+/*IMGS*/
+
+.icon {
+	width: 15%;
+	padding-bottom: 2em;
+}
+
+.hero {
+	width: 100%;
+}
+
+main img {
+	padding-bottom: 1em;
+	margin: 2em 0 2em 25em;
+}
+
+/*FOOTER*/
+
+.footer-nav{
+	font-size: .7em;
+}
+
+.footer-nav a {
+	padding: 2em;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 1em;
+	padding: 2em;
+	text-align: center;
+}
